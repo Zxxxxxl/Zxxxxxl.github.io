@@ -22,7 +22,7 @@
 <body>
 	<nav>
 		<a href="#" target="_blank" class="active">首页</a> <a class="clip"></a>
-		<a href="#" target="_blank">归档</a>
+		<a href="./pages/about.html" target="_blank">关于</a>
 		<a class="clip"></a> <a href="#" target="_blank">文章</a>
 		<a class="clip"></a> <a href="#" target="_blank">留言板</a>
 	</nav>
@@ -51,8 +51,8 @@
 					<h2 class="chtitle">Who am <span>小赵同学</span>？</h2>
 					<div class="clear">
 						<div class="introduct">
-							<!--<img class="avatar"
-								src="https://gitee.com/sun0225/photos/raw/master/img/202108111321291.jpg">-->
+							<!-- <img class="avatar"
+								src="https://gitee.com/sun0225/photos/raw/master/img/202108111321291.jpg" title="未加载出" alt="图片未加载"> -->
 							<P style="padding-top:1em;">坚硬的代替了那些柔软的，清晰的取代了那些模糊的。那些滑溜溜和黏糊糊的东西，带你来到了世界的角落。</p>
 							<br>
 							<p>你好，这里是小赵同学，22岁，热爱计算机互联网事业，对有趣的世界和可能有趣的你充满好奇...
@@ -170,8 +170,7 @@
 								<div class="inner"> <i class="icon-github"></i> <span>Github</span> </div>
 							</div>
 						</a>
-						<a href="#"
-							target="_blank">
+						<a href="#" target="_blank">
 							<div class="item">
 								<div class="bg" style="background-color:#f9a2a8"></div>
 								<div class="inner"> <i class="icon-bilibili"></i>
@@ -198,8 +197,7 @@
 					<!-- 友链 -->
 					<div class="clear"> <a href="#" target="_blank">
 							<div class="item">
-								<div class="avatar"> <img
-										src="#">
+								<div class="avatar"> <img src="#">
 								</div>
 								<div class="inner">
 									<h5>小赵同学</h5>
@@ -210,8 +208,7 @@
 
 						<a href="#" target="_blank">
 							<div class="item">
-								<div class="avatar"> <img
-										src="#">
+								<div class="avatar"> <img src="#">
 								</div>
 								<div class="inner">
 									<h5>微信公众号</h5>
@@ -246,6 +243,8 @@
 		</div>
 		</div>
 
+
+
 		<div class="footer ch">
 			<div class="container">
 				<h3>小赵同学在努力</h3>
@@ -254,8 +253,34 @@
 			</div>
 		</div>
 		</div>
+
 		<script src="js/page.3a0791a3.js"></script>
 		<script type="text/javascript" src="js/stats.js" charset="UTF-8">
+		</script>
+		<script src="https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.min.js"></script>
+		<script>
+			L2Dwidget.init({
+				"model": {
+		　　　　　　　//jsonpath控制显示那个小萝莉模型，下面这个就是我觉得最可爱的小萝莉模型
+					jsonPath: "https://unpkg.com/live2d-widget-model-koharu@1.0.5/assets/koharu.model.json",
+					"scale": 1
+				},
+				"display": {
+					"position": "right", //看板娘的表现位置
+					"width": 150,  //小萝莉的宽度
+					"height": 300, //小萝莉的高度
+					"hOffset": 0,
+					"vOffset": -20
+				},
+				"mobile": {
+					"show": true,
+					"scale": 0.5
+				},
+				"react": {
+					"opacityDefault": 0.9,//不透明度
+					"opacityOnHover": 0.2
+				}
+			});
 		</script>
 
 		<audio autoplay>
